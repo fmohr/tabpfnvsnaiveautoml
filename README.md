@@ -1,6 +1,7 @@
-# tabpfnvsnaiveautoml
+# TabPFN vs. Naive AutoML
 
-Here we compare the TabPFN with Naive AutoML (https://github.com/fmohr/naiveautoml) in terms of accuracy. Check the config file to see which datasets were used.
+Here we compare the TabPFN with Naive AutoML (https://github.com/fmohr/naiveautoml) in terms of accuracy.
+Naive AutoML is a highly competitive AutoML tools, which usually outperforms vanilla auto-sklearn in the sense that good solutions are found (much) faster.
 
 ## Conditions
 ### Datasets
@@ -8,6 +9,8 @@ A selection of 81 datasets we used for LCDB (https://github.com/fmohr/lcdb), whi
 - without categorical attributes
 - at most 10 classes
 - at most 100 features
+
+Check the config file (or result logs below) to see which datasets were used.
 
 Datasets in which we had more than 1000 instances were split so that at most 1000 of the instances were used for training (rest for testing).
 
