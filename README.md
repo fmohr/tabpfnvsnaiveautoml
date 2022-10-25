@@ -18,7 +18,9 @@ Datasets in which we had more than 1000 instances were split so that at most 100
 used with ensembling of 4
 
 ### Naive AutoML
-used with a very short HPO phase of 10 (purely random) hyperparameter configurations; no BO etc. is applied.
+used with a very short HPO phase of 10 (purely random) hyperparameter configurations; no BO etc. is applied. No ensembles.
+
+In this setup, it is basically a *greedy algorithm selection* + tiny HPO phase.
 
 ## Results
 ### Test Accuracy
