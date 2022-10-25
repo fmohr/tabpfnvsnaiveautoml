@@ -1,7 +1,7 @@
 # TabPFN vs. Naive AutoML
 
 Here we compare the TabPFN with Naive AutoML (https://github.com/fmohr/naiveautoml) in terms of accuracy.
-Naive AutoML is a highly competitive AutoML tools, which usually outperforms vanilla auto-sklearn in the sense that good solutions are found (much) faster.
+Naive AutoML is a highly competitive AutoML tool, which usually outperforms vanilla auto-sklearn in the sense that good solutions are found (much) faster.
 
 ## Conditions
 ### Datasets
